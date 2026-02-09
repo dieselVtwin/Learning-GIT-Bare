@@ -1,2 +1,3 @@
 Get-SomethingElse | 
-Do-Something -Else
+Do-Something -Else | 
+Select-Object This, That
