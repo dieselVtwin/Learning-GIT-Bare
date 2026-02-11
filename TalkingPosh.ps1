@@ -1,0 +1,1 @@
+( New-Object -com SAPI.SpVoice ).speak(( Invoke-RestMethod -Uri 'https://catfact.ninja/fact' ).fact )
